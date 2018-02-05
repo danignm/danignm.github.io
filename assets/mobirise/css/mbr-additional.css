@@ -2120,7 +2120,8 @@ body {
   }
 }
 .cid-qC5nVtMxEf {
-  background: #ffffff;
+  background: #55b4d4;
+  background: linear-gradient(45deg, #55b4d4, #ffffff);
 }
 .cid-qC5nVtMxEf .video-block {
   margin: auto;
