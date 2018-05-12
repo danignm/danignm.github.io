@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:400);
+@import url(https://fonts.googleapis.com/css?family=Anton:400);
 
 
 
@@ -21,13 +23,13 @@ body {
 }
 .display-1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 4.25rem;
+  font-size: 2rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 3.2rem;
 }
 .display-2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Abril Fatface', display;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -41,18 +43,18 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Abril Fatface', display;
   font-size: 1.6rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.56rem;
 }
 .display-7 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -61,9 +63,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -621,14 +623,14 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 .form-control,
 .form-control:focus {
@@ -1731,7 +1733,7 @@ body {
   }
 }
 .cid-qBxhfesO53 .mbr-section-title {
-  text-align: right;
+  text-align: left;
   color: #ffffff;
 }
 .cid-qBxhfesO53 .mbr-text,
@@ -1740,8 +1742,8 @@ body {
   color: #00bfff;
 }
 .cid-qMpzVpUscs {
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 105px;
+  padding-bottom: 75px;
   background-color: #2e2e2e;
 }
 .cid-qMpzVpUscs .media-container-row {
@@ -1957,7 +1959,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #ef003c;
 }
 .cid-qBawnAdIYW button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2178,8 +2180,8 @@ body {
   }
 }
 .cid-qC5nVtMxEf {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #232323;
 }
 .cid-qC5nVtMxEf .video-block {
@@ -2191,9 +2193,9 @@ body {
   }
 }
 .cid-qMpw8qTv9Z {
-  padding-top: 15px;
-  padding-bottom: 60px;
-  background-color: #232323;
+  padding-top: 105px;
+  padding-bottom: 75px;
+  background-color: #2e2e2e;
 }
 .cid-qMpw8qTv9Z .media-container-row {
   flex-direction: column;
@@ -2631,26 +2633,26 @@ body {
     flex-shrink: 0;
   }
 }
-.cid-qHVVao0Llt {
+.cid-qRQoPSu9xT {
   padding-top: 75px;
-  padding-bottom: 90px;
-  background-color: #333738;
+  padding-bottom: 60px;
+  background-color: #232323;
 }
-.cid-qHVVao0Llt .mbr-slider .carousel-control {
+.cid-qRQoPSu9xT .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-qHVVao0Llt .mbr-slider .carousel-control-prev {
+.cid-qRQoPSu9xT .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-qHVVao0Llt .mbr-slider .carousel-control-next {
+.cid-qRQoPSu9xT .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-qHVVao0Llt .mbr-slider .modal-body .close {
+.cid-qRQoPSu9xT .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-qHVVao0Llt .mbr-gallery-item > div::before {
+.cid-qRQoPSu9xT .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -2662,7 +2664,7 @@ body {
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-qHVVao0Llt .mbr-gallery-title {
+.cid-qRQoPSu9xT .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -2673,4 +2675,22 @@ body {
   background: linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+}
+.cid-qRQoPSu9xT .mbr-gallery-item > div > span {
+  text-align: left;
+}
+.cid-qRQsKkNZ1p {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #2e2e2e, #2e2e2e);
+}
+.cid-qRQsKkNZ1p .mbr-iconfont-social {
+  font-size: 32px;
+  color: #000000;
+}
+.cid-qRQsKkNZ1p .social-list a:focus {
+  text-decoration: none;
+}
+.cid-qRQsKkNZ1p H2 {
+  color: #ffffff;
 }
