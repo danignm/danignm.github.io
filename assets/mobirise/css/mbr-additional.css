@@ -729,6 +729,29 @@ section.lazy-placeholder:after {
   color: #ffffff;
   text-align: left;
 }
+.cid-rWpnXsuvIe {
+  background: #ffffff;
+}
+.cid-rWpnXsuvIe .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rWpnXsuvIe .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rWpnXsuvIe figcaption {
+  position: relative;
+}
+.cid-rWpnXsuvIe figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rWpnXsuvIe .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rDEVFCv8H5 {
   background-image: url("../../../assets/images/frankydanielgarcianavasmartin-2000x585.jpg");
 }
